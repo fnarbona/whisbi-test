@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <title>Whisbi Test</title>
+</head>
+
+<body>
+    <div id="root">
+        <div class="container py-5">
+            <h1 class="text-center">Whisbi Technical Test</h1>
+            <form id="form" class="mx-auto mt-5 py-2 px-5">
+                <div class="d-flex justify-content-center">
+                    <div class="mx-2 py-2">
+                        <label for="fx-1">Currency:</label>
+                        <select id="fx-1" name="fx-1" class="input">
+                            <option value="USD">USD</option>
+                            <option value="EUR">EUR</option>
+                            <option value="GBP">GBP</option>
+                            <option value="JPY">JPY</option>
+                        </select>
+                    </div>
+                    <div class="mx-2 py-2">
+                        <label for="fx-2">Compare with:</label>
+                        <select id="fx-2" name="fx-2" class="input">
+                            <option value="USD">USD</option>
+                            <option value="EUR">EUR</option>
+                            <option value="GBP">GBP</option>
+                            <option value="JPY">JPY</option>
+                        </select>
+                    </div>
+                    <div class="mx-2 py-2">
+                        <label for="calendar">Pick a date:</label>
+                        <input id="calendar" class="input" type="date">
+                    </div>
+                    <div class="mx-2 py-2">
+                       <button id="btn-submit" class="btn btn-primary">Show</button>
+                    </div>
+                    <div class="mx-2 py-2">
+                        <button id="btn-reset" class="btn btn-success">Reset Date</button>
+                    </div>
+                </div>
+            </form>
+            <div id="chartContainer" class="my-5 mx-auto"></div>
+        </div>
+</body>
+
+</html>

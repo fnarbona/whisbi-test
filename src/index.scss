@@ -1,0 +1,32 @@
+@import "~bootstrap/scss/bootstrap";
+
+$primary: #383838;
+$primary-text: #6d6d6d;
+
+body {
+  background-color: $primary;
+  color: $primary-text
+}
+
+.input {
+    min-height: 40px;
+    margin-left: 5px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+button {
+    min-height: 40px;
+    width: 150px;
+}
+
+#form {
+    background-color: white;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+#chartContainer {
+    height: 400px;
+    width: 600px;
+}
