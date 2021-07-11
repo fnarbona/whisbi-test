@@ -13,24 +13,25 @@
     <div id="root">
         <div class="container py-5">
             <h1 class="text-center">Whisbi Technical Test</h1>
+            <div id="info" class="mx-auto pt-5">
+                <h5 class="text-center">A few remarks about using this tool:</h5>
+                <ul>
+                    <li>Choose a currency to compare with</li>
+                    <li>If no date is present, will use current day values</li>
+                    <li>Click reset date to clear date, will use current day values</li>
+                    <li>Click show to populate charts comparing either current or historical values</li>
+                    <li>Hover over data series to see value!</li>
+                </ul>
+            </div>
             <form id="form" class="mx-auto mt-5 py-2 px-5">
                 <div class="d-flex justify-content-center">
                     <div class="mx-2 py-2">
-                        <label for="fx-1">Currency:</label>
-                        <select id="fx-1" name="fx-1" class="input">
-                            <option value="USD">USD</option>
-                            <option value="EUR">EUR</option>
-                            <option value="GBP">GBP</option>
-                            <option value="JPY">JPY</option>
-                        </select>
-                    </div>
-                    <div class="mx-2 py-2">
-                        <label for="fx-2">Compare with:</label>
+                        <label for="fx-2">Compare EUR with:</label>
                         <select id="fx-2" name="fx-2" class="input">
                             <option value="USD">USD</option>
-                            <option value="EUR">EUR</option>
                             <option value="GBP">GBP</option>
                             <option value="JPY">JPY</option>
+                            <option value="ALL">All</option>
                         </select>
                     </div>
                     <div class="mx-2 py-2">
