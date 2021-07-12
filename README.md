@@ -1,6 +1,6 @@
 # whisbi-test
 
-# This is the product for the technical assessment for Whisbi.
+### This is the product for the technical assessment for Whisbi.
 
 Steps:
 1/ Git clone this respository
