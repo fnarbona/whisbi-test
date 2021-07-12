@@ -17,12 +17,9 @@ window.onload = function () {
 
 	document.getElementById('btn-submit').addEventListener('click', (e) => {
 		e.preventDefault();
-		if (fx2.value === "EUR") {
-			console.log('same value, show one currency');
-			alert('Please select a currency to compare with!')
-		} else if (calendar.value !== "") {
+		if (calendar.value !== "") {
 			console.log('compare historical currency values');
-			renderHistoricalValuesChart();
+			renderHistoricalValuesChart(calendar.value);
 		} else {
 			console.log('compare current currency values');
 			renderCurrentValuesChart();
